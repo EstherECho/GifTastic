@@ -1,5 +1,5 @@
 // create an array of strings called topics
-var topics = [];
+var topics = ["Tom Hanks", "Tom Cruise", "Tom and Jerry", "Tom Sawyer"];
 
 // take topics in string of arrays and create buttons on HTML
 function renderButtons() {
@@ -45,14 +45,13 @@ function renderButtons() {
             giphImage.attr("data-still", stillUrl);
             giphImage.attr("src", stillUrl);
             giphImage.attr("data-animate", animateUrl);
-            giphImage.attr("src", animateUrl);
             giphImage.attr("class", "clips");
             $("#giph-view").prepend(giphImage);
             }
         })
     }
 
-  $(".clips").on("click", function () {
+  $(document).on("click", ".clips", function () {
         console.log("you clicke me!");
 
         var state = $(this).attr("data-state");
@@ -86,7 +85,7 @@ $("#submit").on("click", function(event) {
     // Calling renderButtons which handles the processing of our movie array
     renderButtons();
   });
-
+  renderButtons();
   $(document).on("click", ".giph", displayGiphInfo);
 
 
