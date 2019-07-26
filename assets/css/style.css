@@ -1,0 +1,23 @@
+button,
+div,
+form,
+input,
+h1 {
+  margin: 10px;
+}
+
+h1 {
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 20px;
+}
+
+.background {
+  background-color: rgb(224, 212, 201);
+}
+
+.container {
+  background-color: bisque;
+  margin-top: 20px;
+  /* border: 10px; */
+}
