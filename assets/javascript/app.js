@@ -1,5 +1,5 @@
 // create an array of strings called topics
-var topics = ["Tom Hanks", "Tom Cruise", "Tom and Jerry", "Tom Sawyer"];
+var topics = ["Tom Hanks", "Tom Brady", "Tom Cruise", "Tom and Jerry", "Tom Brokaw", "Tom Sawyer", "Tom Clancy"];
 
 // take topics in string of arrays and create buttons on HTML
 function renderButtons() {
